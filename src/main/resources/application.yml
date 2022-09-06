@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:Admin1234!@localhost:27017/master?authSource=admin
+
+
+  devtools:
+    livereload:
+      enabled: true
+
+  thymeleaf:
+    cache: false
+    prefix: file:src/main/resources/templates/
+  web:
+    resources:
+      static-locations: file:src/main/resources/static
